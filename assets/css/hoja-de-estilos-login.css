@@ -1,0 +1,95 @@
+/*LOGIN*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/login-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container_form{
+    background-color: #0A1E35;
+    border-radius: 30px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+img{
+    width: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+    height: 100px;
+    margin-left: 120px;
+}
+
+h2{
+    margin-left: 135px;
+    color: white; 
+
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+label{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.boton{
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(22, 105, 2);
+    color: white;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 4px solid #0b5a0b;
+    margin-left: 95px;
+}
+
+a:hover{
+    color: #b8b8b8;
+}
+
+label:hover{
+    color: #b8b8b8;
+}
+
+.boton:active{
+    background-color: #52ff52;
+    width: 150px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/

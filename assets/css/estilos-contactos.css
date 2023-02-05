@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: #0d1b3f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0px; 
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    
+}
+
+body{
+    background-image: url('../images/fondo1.png');
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.list{
+    padding: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.table {
+    width: 100%;
+    border: 10px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
+.table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
+.table thead th{ 
+    text-transform: uppercase;
+    background-color: rgb(238, 234, 234);
+}
+
+.table tbody tr:hover {
+    background-color: #ccccd3;
+}
+
+
+@media screen and (max-width: 600px) {
+    .table {
+        border: 0px;
+    }
+    .table caption {
+        font-size: 22px;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .table th, .table td {
+        font-size: 12px;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
